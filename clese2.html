@@ -36,6 +36,7 @@
         display: grid;
         grid-template-rows: auto 1fr auto;
         width: 300px;
+        justify-items: center;
       }
       .logo {
         width: 150px;
@@ -56,6 +57,29 @@
         margin-bottom: 32px;
         text-align: center;
       }
+      .email-image{
+        width: 132px;
+        height: 132px;
+        border-radius: 50px;
+        background-color: var(--text-input-field);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 24px; 
+      }
+      .email-image img{
+        width: 80px;
+      }
+      .resend {
+        font-size: var(--sm) ;
+      }
+      .resend span {
+        color: var(--very-light-pink);
+      }
+      .resend a {
+      color: var(--hospital-green);
+      text-decoration: none;
+    }
       .primary-button {
         background-color: var(--hospital-green);
         border-radius: 8px;
@@ -87,6 +111,12 @@
         <div class="email-image">
             <img src="/Platzi_YardSale_Icons/email.svg" alt="email">
         </div>
+
+        <button class="primary-button login-button">Login</button>
+        <p class="resend">
+         <span>Didn´t receive the email?</span> 
+         <a href="/">Resend</a>
+        </p>
       </div>
     </div>
   </body>
