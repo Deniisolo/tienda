@@ -29,6 +29,8 @@
       .cards-container {
         display: grid;
         grid-template-columns: repeat(auto-fill, 240px);
+        gap: 26px;
+        place-content: center;
       }
       .product-card {
         width: 240px;
@@ -43,14 +45,41 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        margin-top: 12px;
       }
       .product-info figure{
-        margin: 0%;
+        margin: 0;
       }
       .product-info figure img {
         height: 35px;
         width: 35px;
       }
+      .product-info div p:nth-child(1){
+        font-weight: bold;
+        font-size: var(--md);
+        margin-top: 0;
+        margin-bottom: 4px;
+      }
+      .product-info div p:nth-child(2){
+        font-size: var(--md);
+        margin-top: 0;
+        margin-bottom: 0;
+        color: var(--very-light-pink);
+      }
+      @media (max-width: 640px){
+        .cards-container {
+        grid-template-columns: repeat(auto-fill, 140px);
+         } 
+         .product-card {
+        width: 140px;
+      }
+      .product-card img {
+        width: 140px;
+        height: 140px;
+      }
+      }
+
+     
       </style> 
       <body>
         <section class="main-container">
@@ -60,7 +89,7 @@
                     <div class="product-info">
                         <div>
                         <p>$120,00</p>
-                        <p>bike</p>
+                        <p>Bike</p>
                         </div>
                         <figure>
                             <img src="/Platzi_YardSale_Icons/bt_add_to_cart.svg" alt="">
@@ -72,7 +101,7 @@
                 <div class="product-info">
                     <div>
                     <p>$120,00</p>
-                    <p>bike</p>
+                    <p>Bike</p>
                     </div>
                     <figure>
                         <img src="/Platzi_YardSale_Icons/bt_add_to_cart.svg" alt="">
@@ -84,7 +113,7 @@
                 <div class="product-info">
                     <div>
                     <p>$120,00</p>
-                    <p>bike</p>
+                    <p>Bike</p>
                     </div>
                     <figure>
                         <img src="/Platzi_YardSale_Icons/bt_add_to_cart.svg" alt="">
@@ -96,7 +125,7 @@
                 <div class="product-info">
                     <div>
                     <p>$120,00</p>
-                    <p>bike</p>
+                    <p>Bike</p>
                     </div>
                     <figure>
                         <img src="/Platzi_YardSale_Icons/bt_add_to_cart.svg" alt="">
@@ -108,7 +137,7 @@
                     <div class="product-info">
                         <div>
                         <p>$120,00</p>
-                        <p>bike</p>
+                        <p>Bike</p>
                         </div>
                         <figure>
                             <img src="/Platzi_YardSale_Icons/bt_add_to_cart.svg" alt="">
@@ -120,7 +149,7 @@
                     <div class="product-info">
                         <div>
                         <p>$120,00</p>
-                        <p>bike</p>
+                        <p>Bike</p>
                         </div>
                         <figure>
                             <img src="/Platzi_YardSale_Icons/bt_add_to_cart.svg" alt="">
@@ -132,7 +161,7 @@
                     <div class="product-info">
                         <div>
                         <p>$120,00</p>
-                        <p>bike</p>
+                        <p>Bike</p>
                         </div>
                         <figure>
                             <img src="/Platzi_YardSale_Icons/bt_add_to_cart.svg" alt="">
@@ -144,7 +173,7 @@
                     <div class="product-info">
                         <div>
                         <p>$120,00</p>
-                        <p>bike</p>
+                        <p>Bike</p>
                         </div>
                         <figure>
                             <img src="/Platzi_YardSale_Icons/bt_add_to_cart.svg" alt="">
@@ -156,7 +185,7 @@
                     <div class="product-info">
                         <div>
                         <p>$120,00</p>
-                        <p>bike</p>
+                        <p>Bike</p>
                         </div>
                         <figure>
                             <img src="/Platzi_YardSale_Icons/bt_add_to_cart.svg" alt="">
@@ -168,7 +197,7 @@
                     <div class="product-info">
                         <div>
                         <p>$120,00</p>
-                        <p>bike</p>
+                        <p>Bike</p>
                         </div>
                         <figure>
                             <img src="/Platzi_YardSale_Icons/bt_add_to_cart.svg" alt="">
@@ -180,7 +209,7 @@
                     <div class="product-info">
                         <div>
                         <p>$120,00</p>
-                        <p>bike</p>
+                        <p>Bike</p>
                         </div>
                         <figure>
                             <img src="/Platzi_YardSale_Icons/bt_add_to_cart.svg" alt="">
@@ -192,7 +221,7 @@
                     <div class="product-info">
                         <div>
                         <p>$120,00</p>
-                        <p>bike</p>
+                        <p>Bike</p>
                         </div>
                         <figure>
                             <img src="/Platzi_YardSale_Icons/bt_add_to_cart.svg" alt="">
@@ -204,7 +233,7 @@
                     <div class="product-info">
                         <div>
                         <p>$120,00</p>
-                        <p>bike</p>
+                        <p>Bike</p>
                         </div>
                         <figure>
                             <img src="/Platzi_YardSale_Icons/bt_add_to_cart.svg" alt="">
@@ -216,7 +245,7 @@
                     <div class="product-info">
                         <div>
                         <p>$120,00</p>
-                        <p>bike</p>
+                        <p>Bike</p>
                         </div>
                         <figure>
                             <img src="/Platzi_YardSale_Icons/bt_add_to_cart.svg" alt="">
@@ -228,7 +257,7 @@
                     <div class="product-info">
                         <div>
                         <p>$120,00</p>
-                        <p>bike</p>
+                        <p>Bike</p>
                         </div>
                         <figure>
                             <img src="/Platzi_YardSale_Icons/bt_add_to_cart.svg" alt="">
@@ -240,7 +269,7 @@
                     <div class="product-info">
                         <div>
                         <p>$120,00</p>
-                        <p>bike</p>
+                        <p>Bike</p>
                         </div>
                         <figure>
                             <img src="/Platzi_YardSale_Icons/bt_add_to_cart.svg" alt="">
@@ -252,7 +281,7 @@
                     <div class="product-info">
                         <div>
                         <p>$120,00</p>
-                        <p>bike</p>
+                        <p>Bike</p>
                         </div>
                         <figure>
                             <img src="/Platzi_YardSale_Icons/bt_add_to_cart.svg" alt="">
@@ -264,7 +293,7 @@
                     <div class="product-info">
                         <div>
                         <p>$120,00</p>
-                        <p>bike</p>
+                        <p>Bike</p>
                         </div>
                         <figure>
                             <img src="/Platzi_YardSale_Icons/bt_add_to_cart.svg" alt="">
@@ -276,7 +305,7 @@
                     <div class="product-info">
                         <div>
                         <p>$120,00</p>
-                        <p>bike</p>
+                        <p>Bike</p>
                         </div>
                         <figure>
                             <img src="/Platzi_YardSale_Icons/bt_add_to_cart.svg" alt="">
@@ -288,7 +317,7 @@
                     <div class="product-info">
                         <div>
                         <p>$120,00</p>
-                        <p>bike</p>
+                        <p>Bike</p>
                         </div>
                         <figure>
                             <img src="/Platzi_YardSale_Icons/bt_add_to_cart.svg" alt="">
